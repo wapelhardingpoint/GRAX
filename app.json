@@ -1,8 +1,8 @@
 {
-  "name": "ENGAGEMENTMANAGER",
+  "name": "GRAX by Harding Point",
   "description": "Orchestrate, integrate, and engage with your customers/devices/partners/back office",
-  "repository": "https://github.com/HardingPoint/graphconnect.git",
-  "website": "https://www.hardingpoint.com/",
+  "repository": "https://github.com/HardingPoint/GRAX.git",
+  "website": "https://grax.io",
   "keywords": ["salesforce","graphdb","neo4j"],
   "addons": [
     {
