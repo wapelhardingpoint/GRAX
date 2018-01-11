@@ -1,0 +1,6 @@
+
+
+The ephemeral nature of the file system in a dyno can be demonstrated with the above command. If you create a one-off
+dyno by running heroku run bash, the Unix shell on the dyno, and then create a file on that dyno, and then terminate
+your session - the change is lost. All dynos, even those in the same application, are isolated - and after the session
+is terminated the dyno will be killed. New dynos are always created from a slug, not from the state of other dynos.

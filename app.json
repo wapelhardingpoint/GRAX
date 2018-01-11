@@ -1,0 +1,39 @@
+{
+  "name": "ENGAGEMENTMANAGER",
+  "description": "Orchestrate, integrate, and engage with your customers/devices/partners/back office",
+  "repository": "https://github.com/HardingPoint/graphconnect.git",
+  "website": "https://www.hardingpoint.com/",
+  "keywords": ["salesforce","graphdb","neo4j"],
+  "addons": [
+    {
+      "plan": "graphenedb:chalk",
+      "as": "GraphConnect"
+    },
+    {
+      "plan": "engagementgraph:hpt-test",
+      "as": "ENGAGEMENTGRAPH"
+    }
+  ],
+  "env": {
+    "ENGAGEMENTMANAGER_READONLYUSER": {
+      "description": "Readonly User Name",
+      "value": "readonly"
+    },
+    "ENGAGEMENTMANAGER_READONLYPWD": {
+      "description": "Readonly User Name",
+      "value": "HardingPoint!"
+    },
+    "ENGAGEMENTMANAGER_ENVIRONMENT":{
+      "description": "If you run multiple environments you can group servers into Production, QA, Development (or any name of your choosing)",
+      "value": "Production"
+    },
+    "ENGAGEMENTMANAGER_CACHE_DIR": {
+      "description": "Temporary cache for Heroku ephemeral file system",
+      "value": "./HardingPoint/cache/"
+    },
+    "ENGAGEMENTMANAGER_CACHE_ENABLED": {
+      "description": "Temporary cache for Heroku ephemeral file system",
+      "value": "true"
+    }
+  }
+}
