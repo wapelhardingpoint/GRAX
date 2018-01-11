@@ -5,7 +5,7 @@
 device, backoffice, and app engagement. The Engagement Graph is used within 
 **GRAX**  for deep analytics, artificial intelligence, reporting, and App 
 Development. The more data and relationships you link with your Engagement Graph the 
-quicker it builds, learns (via AI), and reacts (via Engagement Manager) from your Neural Network.
+quicker it builds, learns (via AI), and reacts (via GRAX Relate) from your Neural Network.
 
 
 * [`Grax Build`](https://engagementmanager.herokuapp.com) - <b>Instructions Below</b>
@@ -14,7 +14,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 
 ## Deployment & Configuration Instructions
 
- ![GRAX : Engagement Manager](https://static.wixstatic.com/media/7e84ec_44f39af51cf14778853441032eb4af6c~mv2.png?dn=Grax+Installation_GITHUB.png "GRAX Installation")
+ ![GRAX : Relate](https://static.wixstatic.com/media/7e84ec_44f39af51cf14778853441032eb4af6c~mv2.png?dn=Grax+Installation_GITHUB.png "GRAX Installation")
 
 ### 1. Deploy GRAX Application to Heroku 
 
